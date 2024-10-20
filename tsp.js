@@ -1,4 +1,4 @@
-// Copyright (c) 2023 SobaZino | Mehran Nosrati
+
 
 var LEVEL = [];
 var P = [];

@@ -1,4 +1,4 @@
-// Copyright (c) 2023 SobaZino | Mehran Nosrati
+
 
 var OPTIMALVALUE = document.getElementById("OPTIMALVALUE");
 var OPTIMALPOLICY = document.getElementById("OPTIMALPOLICY");
