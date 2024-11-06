@@ -1,29 +1,36 @@
-Dynamic Programming Implementation of Travel Salesman Problem
+# TSP Visualizer
 
-
-The Held–Karp algorithm, also called the Bellman–Held–Karp algorithm, is a dynamic programming algorithm proposed in 1962 independently by Bellman and by Held and Karp to solve the traveling salesman problem (TSP), in which the input is a distance matrix between a set of cities, and the goal is to find a minimum-length tour that visits each city exactly once before returning to the starting point.
-
-TSP Visualizer
 A web-based tool to visualize and solve the Travelling Salesman Problem (TSP) with interactive controls and detailed step-by-step processing.
 
-Features
-Night Mode: Easily toggle between light and dark themes with the left button at the top of the screen.
-GitHub Repository Access: Access the GitHub repository for this project with the button on the right at the top.
-Getting Started
-Example Data
-At the bottom of the screen, you will find two examples labeled Example 1 and Example 2. These examples provide sample data that you can use to run the TSP algorithm. You are free to adjust the distances and the number of nodes in these examples.
+## Features
 
-Running the TSP Algorithm
-To start the algorithm, click on the Start Processing button. This will compute the optimal solution and display the:
+- **Night Mode**: Easily toggle between light and dark themes with the left button at the top of the screen.
+- **GitHub Repository Access**: Access the GitHub repository for this project with the button on the right at the top.
 
-Optimal Path: The shortest route visiting each node exactly once and returning to the start.
-Optimal Value: The minimum possible distance.
-Step-by-Step Processing
+## Getting Started
+
+### Example Data
+At the bottom of the screen, you will find two examples labeled **Example 1** and **Example 2**. These examples provide sample data that you can use to run the TSP algorithm. You are free to adjust the distances and the number of nodes in these examples.
+
+### Running the TSP Algorithm
+To start the algorithm, click on the **Start Processing** button. This will compute the optimal solution and display the:
+
+- **Optimal Path**: The shortest route visiting each node exactly once and returning to the start.
+- **Optimal Value**: The minimum possible distance.
+
+### Step-by-Step Processing
 For a detailed breakdown of each step in the TSP process:
 
-Click on the View Processing button.
-Controls will appear, including:
-Play: Automatically play through each step of the TSP solution.
-Pause: Pause the processing at any moment.
-Forward / Backward: Manually step through the algorithm to view previous or next steps.
+1. Click on the **View Processing** button.
+2. Controls will appear, including:
+   - **Play**: Automatically play through each step of the TSP solution.
+   - **Pause**: Pause the processing at any moment.
+   - **Forward / Backward**: Manually step through the algorithm to view previous or next steps.
+
 These controls let you interactively explore the algorithm's pathfinding process at your own pace.
+
+## Installation and Usage
+
+1. Clone this repository using the **GitHub Repository Access** button or by running:
+   ```bash
+   git clone <repo-url>
