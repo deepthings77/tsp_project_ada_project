@@ -29,6 +29,8 @@ For a detailed breakdown of each step in the TSP process:
 
 These controls let you interactively explore the algorithm's pathfinding process at your own pace.
 
+#tsp.js is javascript implementation and tspc++.cpp is c++ implementation.
+
 ## Installation and Usage
 
 1. Clone this repository using the **GitHub Repository Access** button or by running:
